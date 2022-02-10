@@ -1,23 +1,22 @@
 import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
 
 export default function Home() {
   return (
-    <div className="container">
+    <div>
       <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Sivera</title>
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
+        <h1>
+          Welcome to{' '}<strong> Sivera </strong>          
+        </h1>
+        <h2>სივერა</h2>
+        <p>
+          We will be online soon.  Please contact us on <a href="mailto:info@sivera.ge">info@sivera.ge</a> if you have any queries.
         </p>
       </main>
-
-      <Footer />
     </div>
   )
 }
